@@ -155,9 +155,9 @@ a {
 }
 .menu-button {
     border: none;
-    position: absolute;
     top: 16px;
     right: 16px;
+    position: fixed;
     background-color: transparent;
 }
 
@@ -207,7 +207,7 @@ a {
 }
 
 .nav-container .icon {
-    fill: var(--dark);
+    fill: #f4f4fd;
     display: block;
 }
 
@@ -440,13 +440,13 @@ a {
                 url(../images/background-image-tablet-2x.jpg);
         }
     }
-
-  }
 .start-name {
-font-size: 56px;
-line-height: 1.07;
-margin-bottom: 36px;
+    font-size: 56px;
+    line-height: 1.07;
+    margin-bottom: 36px;
 }
+  }
+
         
 /*  Desktop: 1158px */
 @media screen and (min-width: 1158px) {
@@ -516,20 +516,12 @@ margin-bottom: 36px;
 }
 .sub-title {
     font-weight: 500;
-    font-size: 20px;
+    font-size: 36px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--dark);
 }
-.features-item .sub-title {
-    font-size: 36px;
-    line-height: 111%;
-    margin-bottom: 8px;
-    text-align: center;
-    color: #2e2f42;
-    
-    
-}
+
 .features-text {
     letter-spacing: 0.02em;
 }
@@ -540,8 +532,9 @@ margin-bottom: 36px;
         padding: 120px 0;
     }
 
-    .features-subtitle {
+    .sub-title {
         text-align: left;
+        font-size: 36px;
     }
 
     .features-list {
@@ -565,6 +558,9 @@ margin-bottom: 36px;
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+    .sub-title {
+        font-size: 20px;
     }
 }
 
