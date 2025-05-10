@@ -496,7 +496,7 @@ a {
 .features-list {
     display: flex;
     flex-direction: column;
-    row-gap: 72px;
+    gap: 72px;
 }
 .features-icon {
     display: none;
@@ -539,7 +539,7 @@ a {
         flex-direction: row;
         flex-wrap: wrap;
         gap: 24px;
-        row-gap: 72px;
+        
     }
 
     .features-item {
